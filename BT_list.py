@@ -1,4 +1,4 @@
-List =  [32, 44, -9, -4, 8, 47, 10, -10]
+List =  [32, 44, -9,5, -4, 8, 47, 10, -10]
 
 #Bài 1: Tính tổng các phần tử của danh sách
 def Bai1():
@@ -216,7 +216,7 @@ def Bai18():
     List_1 = List_1[:4] + A + List_1[4:]
     print(List_1)  
 
-#Bài 19: Xóa phần tử thứu k nhập từ bàn phím
+#Bài 19: Xóa phần tử thứ k nhập từ bàn phím
 def Bai19():
     k = int(input("Nhap vi tri k cần xoa: "))
     if k < 0 or k >= len(List):
